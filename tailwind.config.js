@@ -5,8 +5,11 @@ export default {
     extend: {
       fontFamily: {
         nightcore: ["Nightcore", "sans"],
-        miso: ["miso", 'sans']
-      }
+        miso: ["miso", "sans"],
+      },
+      width: {
+        128: "32rem",
+      },
     },
   },
   plugins: [],
