@@ -7,6 +7,9 @@ const InfinityNav = () => {
         <div className="w-60"></div>
         <ul className="text-white flex gap-16 text-xl">
           <li className="pb-2 hover:text-red-600 hover:border-b-2 border-red-600">
+            <a href="/infinity#about">ABOUT</a>
+          </li>
+          <li className="pb-2 hover:text-red-600 hover:border-b-2 border-red-600">
             <Link to="/infinity/bitlegion">BIT LEGION</Link>
           </li>
           <li className="pb-2 hover:text-red-600 hover:border-b-2 border-red-600">
@@ -23,7 +26,7 @@ const InfinityNav = () => {
           <img
             src="/images/Infinity_logo.png"
             alt="Logo"
-            width={250}
+            width={175}
             className="right-0"
           />
         </Link>

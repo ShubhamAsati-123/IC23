@@ -45,15 +45,19 @@ const Infinity = () => {
         </div>
 
         <div className="text-white flex justify-center pt-16">
-          <h1 className="border border-1 border-white px-14 py-5 rounded-2xl text-4xl font-nightcore">
-            <a href="#register">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScAr32xvlkGK7EZxsp3RU0Ix-r2RgiDjX8sWcrX4JoWJ5VYlw/viewform"
+            target="_blank"
+            rel="noopener"
+          >
+            <h1 className="border border-1 border-white px-14 py-5 rounded-2xl text-4xl font-nightcore">
               Register &nbsp; <span className="text-red-600">Now</span>
-            </a>
-          </h1>
+            </h1>
+          </a>
         </div>
       </div>
-      <div className="bg-black h-full text-white">
-        <h1 className="flex justify-center font-nightcore text-8xl tracking-wider pt-20 pb-8">
+      <div className="bg-black h-full text-white" id="about">
+        <h1 className="flex justify-center font-nightcore text-8xl tracking-widest pt-20 pb-8">
           ABOUT THE CO<span className="text-red-600">N</span>TEST
         </h1>
         <div className="flex flex-col gap-6">
@@ -87,7 +91,7 @@ const Infinity = () => {
           </p>
         </div>
 
-        <h2 className="flex justify-center font-nightcore text-6xl tracking-wider p-10">
+        <h2 className="flex justify-center font-nightcore text-8xl tracking-wider p-10">
           Register
         </h2>
         <p className="flex justify-center font-miso text-2xl">
