@@ -4,22 +4,30 @@
 
 import HOFCardContent from "./HOFCardContent";
 
-
-const HOFCard = ({ title, bgcolor, ccolor, transy, data}) => {
+const HOFCard = ({ title, bgcolor, ccolor, transy, data }) => {
   return (
     <div>
       <div
-        className={`bg-${bgcolor} w-80 h-128 mb-24 text-black rounded-3xl ${
+        className={`bg-${bgcolor} my-10 w-80 h-128 lg:mb-24 text-black rounded-3xl lg:${
           transy ? "-translate-y-5" : 0
-        } shadow-lg shadow-gray-700/50`}
+        } shadow-lg shadow-gray-700/50 `}
+        style={{
+          "box-shadow":
+            "-12px 15px 14px 0px rgba(0, 0, 0, 0.25), 12px 15px 14px 0px rgba(0, 0, 0, 0.25)",
+        }}
       >
-        <h1 className="font-miso text-7xl flex justify-center">{title}</h1>
-        
-        {
-            data.map((ele) => {
-                return <HOFCardContent ccolor={ccolor} name={ele.name} clg={ele.clg} year={ele.year}/>
-            })
-        }
+        <h1 className="font-miso text-5xl flex justify-center p-5">{title}</h1>
+
+        {data.map((ele) => {
+          return (
+            <HOFCardContent
+              ccolor={ccolor}
+              name={ele.name}
+              clg={ele.clg}
+              year={ele.year}
+            />
+          );
+        })}
       </div>
     </div>
   );

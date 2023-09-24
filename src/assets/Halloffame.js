@@ -7,7 +7,7 @@ export const world = [
 ];
 export const india = [
   {
-    name: "jay leeds",
+    name: "Jay Leeds",
     clg: "Swarthmore College",
     year: 22,
   },

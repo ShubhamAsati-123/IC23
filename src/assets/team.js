@@ -49,7 +49,7 @@ export const team = [
       linkedin: "https://www.linkedin.com/in/manas-agarwal-a13623256",
     },
     {
-      name: "Prackhar Singh",
+      name: "Prakhar Singh",
       designation: "web developer + designer",
       insta: "#",
       github: "#",

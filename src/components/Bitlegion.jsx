@@ -7,11 +7,11 @@ const Bitlegion = () => {
       <div className="bg-black h-full">
         <InfinityNav />
 
-        <h1 className="text-white pt-24 text-9xl flex justify-center font-nightcore tracking-wider">
+        <h1 className="text-5xl text-white pt-24 lg:text-9xl flex justify-center font-nightcore tracking-wider">
           BIT LE <span className="text-red-600">G</span>ION
         </h1>
 
-        <div className="text-white font-miso text-3xl px-32 text-justify py-10 flex flex-col gap-6">
+        <div className="text-white font-miso text-xl lg:text-3xl px-5 lg:px-32 text-justify py-10 flex flex-col gap-6">
           <p>
             printf("There are only 10 types of people in this world, those who
             know Binary and those who don't);
