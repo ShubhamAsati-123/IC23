@@ -8,7 +8,7 @@ const HOFCard = ({ title, bgcolor, ccolor, transy, data }) => {
   return (
     <div>
       <div
-        className={`bg-${bgcolor} my-10 w-80 h-128 lg:mb-24 text-black rounded-3xl lg:${
+        className={`bg-${bgcolor} my-10 w-80 h-96 lg:mb-24 text-black rounded-3xl ${
           transy ? "-translate-y-5" : 0
         } shadow-lg shadow-gray-700/50 `}
         style={{
