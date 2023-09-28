@@ -1,7 +1,7 @@
 import LockoutNav from "./LockoutNav";
 const LockoutAbout = () =>{
     return(
-        <div className=" lg:bg-black bg-transparent lg:bg-[url('/images/lockoutbg.png')] text-white lg:h-screen lg:grid grid-cols-2" id="about">
+        <div className=" lg:bg-black bg-transparent lg:bg-[url('/images/lockoutbg.png')] lg:bg-cover lg:bg-no-repeat text-white lg:h-screen lg:grid grid-cols-2" id="about">
 
     <div className="font-newshape px-24 pt-24" style={{"fontSize":"7rem"}}>
         <img src="/images/aboutimage.png" alt="" />
