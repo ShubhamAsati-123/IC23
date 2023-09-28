@@ -6,6 +6,10 @@ export default {
       fontFamily: {
         nightcore: ["Nightcore", "sans"],
         miso: ["miso", "sans"],
+        newshape: ["NewShape","sans"],
+      },
+      colors:{
+        "lockoutPink":"#D50068",
       },
       width: {
         128: "32rem",

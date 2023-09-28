@@ -10,6 +10,7 @@ import Tech from "./pages/Tech";
 import Cult from "./pages/Cult";
 import Nexus from "./pages/Nexus";
 import Lockout from "./pages/Lockout";
+import LockoutAbout from "./components/LockoutAbout";
 import Rofies1 from "./pages/Rofies1";
 import Rofies2 from "./pages/Rofies2";
 import Infinityteam from "./components/Infinityteam";
@@ -80,8 +81,8 @@ const App = () => {
       element: <Lockout />,
     },
     {
-      path: "/lockout",
-      element: <Lockout />,
+      path: "/lockout/about",
+      element: <LockoutAbout/>,
     },
     {
       path: "/rofies1",

@@ -12,7 +12,7 @@ const Bitlegion = () => {
         </h1>
 
         <div className="text-white font-miso text-xl lg:text-3xl px-5 lg:px-32 text-justify py-10 flex flex-col gap-6">
-          <p>
+          <p className="text-center mb-9 mt-2 text-3xl font-bold">
             printf("There are only 10 types of people in this world, those who
             know Binary and those who don't);
           </p>
