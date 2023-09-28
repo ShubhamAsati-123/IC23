@@ -1,22 +1,16 @@
 export const team = [
-    {
-      name: "Deepesh Patil",
-      designation: "Social Media and Outreach",
-      insta: "https://www.instagram.com/_deepesh_v.p/",
-      github: "https://github.com/deepesh611",
-      linkedin: "https://www.linkedin.com/in/deepesh-patil-103a87258/",
-    },
-    {
-      name: "Utkarsh Shukla",
-      designation: "Core Member",
-      insta: "https://www.instagram.com/utkarshukla_7/",
-      github: "https://github.com/utkarshukla7",
-      linkedin: "https://www.linkedin.com/in/utkarshshukla7",
-    },
-    {
-      name: "Apurva Patil",
-      designation: "Core Member",
-      insta: "hhttps://www.instagram.com/appu__oo7/",
+  
+  {
+  name: "Utkarsh Shukla",
+  designation: "Core Member",
+  insta: "https://www.instagram.com/utkarshukla_7/",
+  github: "https://github.com/utkarshukla7",
+  linkedin: "https://www.linkedin.com/in/utkarshshukla7",
+},
+{
+  name: "Apurva Patil",
+  designation: "Core Member",
+  insta: "hhttps://www.instagram.com/appu__oo7/",
       github: "https://github.com/appu-11",
       linkedin: "https://www.linkedin.com/in/apurva-patil-422a76226/",
     },
@@ -28,11 +22,11 @@ export const team = [
       linkedin: "https://www.linkedin.com/in/abhishek-batish-b7b029223",
     },
     {
-      name: "Ashu Mittal",
-      designation: "President",
-      insta: "https://instagram.com/_.0202._ashu/",
-      github: "https://github.com/Ashu-0202",
-      linkedin: "https://www.linkedin.com/in/ashu-mittal-7081a6232",
+      name: "Chaitanya Deshmukh",
+      designation: "Social Media and Outreach",
+      insta: "https://instagram.com/heyy.chaitanya?igshid=OGU0MmVlOWVjOQ==",
+      github: "https://github.com/ChaitanyaD48",
+      linkedin: "https://www.linkedin.com/in/chaitanya-deshmukh-300907223",
     },
     {
       name: "Amaan Parvez",
@@ -49,6 +43,20 @@ export const team = [
       linkedin: "https://www.linkedin.com/in/manas-agarwal-a13623256",
     },
     {
+      name: "Pranjali Dhale",
+      designation: "Core Member",
+      insta: "https://www.instagram.com/pranjali.dhale/?igshid=NzZlODBkYWE4Ng==",
+      github: "https://github.com/Pranjalidhale0711",
+      linkedin: "https://linkedin.com/in/pranjali123",
+    },
+    {
+      name: "Shubham Sahu",
+      designation: "Core Member",
+      insta: "https://www.instagram.com/_shubham720/",
+      github: "https://github.com/Shubhamsahu1101",
+      linkedin: "https://www.linkedin.com/in/shubhamsahu1101/",
+    },
+    {
       name: "Prakhar Singh",
       designation: "web developer + designer",
       insta: "#",
@@ -61,13 +69,6 @@ export const team = [
       insta: "https://instagram.com/ashmit_5980?igshid=YTQwZjQ0NmI0OA==",
       github: "#",
       linkedin: "https://www.linkedin.com/in/ashmit-jagtap-544587270/",
-    },
-    {
-      name: "Jai Somani",
-      designation: "Social Media and Outreach",
-      insta: "https://www.instagram.com/jaisomani04/",
-      github: "https://github.com/jaisomani04",
-      linkedin: "https://www.linkedin.com/in/jaisomani04/",
     },
     {
       name: "Kanishka Bansode",
@@ -84,38 +85,42 @@ export const team = [
       linkedin: "https://www.linkedin.com/in/shubham-asati-054ba124b/",
     },
     {
-      name: "Reyaan Jagnani",
-      designation: "Mentor",
-      insta: "https://instagram.com/rj_25.01?igshid=OGQ5ZDc2ODk2ZA==",
-      github: "https://github.com/reyaan44",
-      linkedin: "https://www.linkedin.com/in/reyaan-jagnani-b20ba4205",
-    },
-    {
-      name: "Chaitanya Deshmukh",
-      designation: "Social Media and Outreach",
-      insta: "https://instagram.com/heyy.chaitanya?igshid=OGU0MmVlOWVjOQ==",
-      github: "https://github.com/ChaitanyaD48",
-      linkedin: "https://www.linkedin.com/in/chaitanya-deshmukh-300907223",
-    },
-    {
-      name: "Pranjali Dhale",
-      designation: "Core Member",
-      insta: "https://www.instagram.com/pranjali.dhale/?igshid=NzZlODBkYWE4Ng==",
-      github: "https://github.com/Pranjalidhale0711",
-      linkedin: "https://linkedin.com/in/pranjali123",
-    },
-    {
-      name: "Shubham Sahu",
-      designation: "Core Member",
-      insta: "https://www.instagram.com/_shubham720/",
-      github: "https://github.com/Shubhamsahu1101",
-      linkedin: "https://www.linkedin.com/in/shubhamsahu1101/",
-    },
-    {
       name: "Saloni Chippa",
       designation: "Social Media and Outreach",
       insta: "https://instagram.com/salonic_06?igshid=OGQ5ZDc2ODk2ZA==",
       github: "https://github.com/salonic06",
       linkedin: "www.linkedin.com/in/saloni-chippa-280a93271",
     },
+    {
+      name: "Jai Somani",
+      designation: "Social Media and Outreach",
+      insta: "https://www.instagram.com/jaisomani04/",
+      github: "https://github.com/jaisomani04",
+      linkedin: "https://www.linkedin.com/in/jaisomani04/",
+    },
+    {
+      name: "Deepesh Patil",
+      designation: "Social Media and Outreach",
+      insta: "https://www.instagram.com/_deepesh_v.p/",
+      github: "https://github.com/deepesh611",
+      linkedin: "https://www.linkedin.com/in/deepesh-patil-103a87258/",
+    }
+    
   ];
+  export const headteam = [
+    {
+      name: "Ashu Mittal",
+      designation: "President",
+      insta: "https://instagram.com/_.0202._ashu/",
+      github: "https://github.com/Ashu-0202",
+      linkedin: "https://www.linkedin.com/in/ashu-mittal-7081a6232",
+    },
+    {
+      name: "Reyaan Jagnani",
+      designation: "Mentor",
+      insta: "https://instagram.com/rj_25.01?igshid=OGQ5ZDc2ODk2ZA==",
+      github: "https://github.com/reyaan44",
+      linkedin: "https://www.linkedin.com/in/reyaan-jagnani-b20ba4205",
+    }
+      
+    ];

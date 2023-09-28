@@ -10,3 +10,7 @@
   font-family: Nightcore;
   src: url("/fonts/NightcoreDemo.ttf");
 }
+@font-face {
+  font-family: NewShape;
+  src: url("/fonts/NewShape-Book.ttf");
+}
