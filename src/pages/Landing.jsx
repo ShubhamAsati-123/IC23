@@ -1,5 +1,13 @@
+import About from "./About";
+import Home from "./Home";
+
 const Landing = () => {
-  return <div>IConclave' 23</div>;
+  return (
+    <div className="flex flex-nowrap h-screen w-[200%]">
+        <Home />
+        <About />
+    </div>
+  );
 };
 
 export default Landing;

@@ -40,6 +40,10 @@
   font-family: punktypewriter;
   src: url("/fonts/PunkTypewriter.otf");
 }
+@font-face {
+  font-family: liquidism;
+  src: url("/fonts/liquidism.ttf");
+}
 ::-webkit-scrollbar {
   display: none;
 }

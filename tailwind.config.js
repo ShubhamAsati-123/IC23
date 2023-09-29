@@ -14,6 +14,7 @@ export default {
         veterantypewriter: ["veterantypewriter", "sans"],
         1942: ["oneninefourtwo", "sans"],
         punktypewriter: ["punktypewriter", "sans"],
+        liquidism: ["liquidism", "sans"],
       },
       colors: {
         lockoutred: "#571d20",

@@ -2,9 +2,14 @@
 const Home = () => {
   return (
     <div
-
+      style={{
+        background: "url(/images/test1.png)",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+      }}
+      className="h-screen w-screen"
     >
-      IConclave' 23
+      <img src="./images/Home_bg.png" alt="" className="w-screen h-screen"/>
     </div>
   );
 }
