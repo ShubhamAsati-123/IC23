@@ -3,13 +3,13 @@ import LockoutAbout from '../components/LockoutAbout';
 
 const Lockout = () => {
   return (
-      <div className="lg:bg-[url('/images/lockoutRedbg.png')] bg-gradient-to-b from-[#8B2828] to-[#322020] h-full lg:bg-cover  lg:h-screen  bg-no-repeat bg-center ">
+      <div className="lg:bg-[url('/images/lockoutRedbg.png')] bg-gradient-to-b from-[#8B2828] to-[#322020] h-full lg:bg-cover  lg:h-screen overflow-hidden  bg-no-repeat bg-center ">
       <div className="">
       <LockoutNav />
       <div className="lg:hidden">
         <img src="/images/lockoutlogo.png" alt="" />
       </div>
-      <div className="text-white flex justify-center lg:pt-80 lg:mt-[40vh] lg:pb-[3.5rem] lg:p-0 p-24">
+      <div className="text-white flex justify-center lg:pt-80 lg:mt-[35vh] lg:pb-[3.5rem] lg:p-0 ">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLScAr32xvlkGK7EZxsp3RU0Ix-r2RgiDjX8sWcrX4JoWJ5VYlw/viewform"
             target="_blank"
