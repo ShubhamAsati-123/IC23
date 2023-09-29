@@ -1,5 +1,5 @@
 import LockoutNav from "../components/LockoutNav";
-
+// bg-gradient-to-b from-[#8B2828] to-[#322020]
 const Lockout = () => {
   return (
     <div
@@ -21,9 +21,11 @@ const Lockout = () => {
       </div>
 
       <div className="flex justify-center items-center ">
-        <h1 className="text-white font-captainamerica border-8 px-10 py-3 text-5xl  tracking-wider ">
+        <a href="#">
+        <h1 className="text-white font-captainamerica border-8 px-10 py-3 text-5xl border-white tracking-wider hover:bg-white hover:text-black">
           REGISTER
         </h1>
+        </a>
       </div>
     </div>
   );
