@@ -9,7 +9,7 @@ const Lockout = () => {
       <div className="lg:hidden">
         <img src="/images/lockoutlogo.png" alt="" />
       </div>
-      <div className="text-white flex justify-center lg:pt-96 lg:mt-[40vh] lg:mb-24 lg:p-0 p-24">
+      <div className="text-white flex justify-center lg:pt-80 lg:mt-[40vh] lg:pb-[3.5rem] lg:p-0 p-24">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLScAr32xvlkGK7EZxsp3RU0Ix-r2RgiDjX8sWcrX4JoWJ5VYlw/viewform"
             target="_blank"
