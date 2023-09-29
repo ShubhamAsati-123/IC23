@@ -18,6 +18,9 @@
   font-family: CaptainAmerica;
   src: url("/fonts/AmericanCaptain.otf");
 }
+::-webkit-scrollbar{
+  display: none;
+}
 /* #registertext:hover{
   text-shadow: 2px 2px 5px grey;
 } */
