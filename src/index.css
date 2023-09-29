@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 @font-face {
   font-family: Miso;
@@ -18,9 +20,35 @@
   font-family: CaptainAmerica;
   src: url("/fonts/AmericanCaptain.otf");
 }
-::-webkit-scrollbar{
+@font-face {
+  font-family: Silkroad;
+  src: url("/fonts/SilkRoad.ttf");
+}
+@font-face {
+  font-family: Octobercrow;
+  src: url("/fonts/OctoberCrow.ttf");
+}
+@font-face {
+  font-family: veterantypewriter;
+  src: url("/fonts/veterantypewriter.ttf");
+}
+@font-face {
+  font-family: oneninefourtwo;
+  src: url("/fonts/1942.ttf");
+}
+@font-face {
+  font-family: punktypewriter;
+  src: url("/fonts/PunkTypewriter.otf");
+}
+@font-face {
+  font-family: liquidism;
+  src: url("/fonts/liquidism.ttf");
+}
+::-webkit-scrollbar {
   display: none;
 }
+
+
 /* #registertext:hover{
   text-shadow: 2px 2px 5px grey;
 } */

@@ -12,7 +12,7 @@ const Infinity = () => {
     <div className="relative">
       <div className="bg-black h-screen">
         <InfinityNav />
-        <div className="flex justify-center p-28 items-center ">
+        <div className="flex justify-center p-8 items-center ">
           <img
             src="./images/Infinity_logo.png"
             alt="Infinity Logo"

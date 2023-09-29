@@ -8,13 +8,12 @@ const Infinityteam = () => {
     <div className="bg-black h-full">
       <InfinityNav />
 
-      <h1 className="text-5xl text-white pt-24 lg:text-9xl flex justify-center font-nightcore tracking-wider">
+      <h1 className="text-5xl text-white lg:text-9xl flex justify-center font-nightcore tracking-wider">
         OUR T <span className="text-red-600">E</span>AM
       </h1>
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-2 justify-center items-center gap-14 py-10 pb-4 lg:pt-16 lg:pb-0">
           {headteam.map((member) => {
-            // console.log(member);
             return (
               <Card
                 key={member.name}

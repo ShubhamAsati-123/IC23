@@ -4,10 +4,10 @@ import InfinityNav from "./InfinityNav";
 const Bitlegion = () => {
   return (
     <div>
-      <div className="bg-black h-full">
+      <div className="bg-black lg:h-screen">
         <InfinityNav />
 
-        <h1 className="text-5xl text-white pt-24 lg:text-9xl flex justify-center font-nightcore tracking-wider">
+        <h1 className="text-5xl text-white pt-4 lg:text-9xl flex justify-center font-nightcore tracking-wider">
           BIT LE <span className="text-red-600">G</span>ION
         </h1>
 
