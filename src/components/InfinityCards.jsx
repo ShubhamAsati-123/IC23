@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import {AiFillGithub} from "react-icons/ai"
 import { AiFillLinkedin } from "react-icons/ai";
 import { BsInstagram} from "react-icons/bs";

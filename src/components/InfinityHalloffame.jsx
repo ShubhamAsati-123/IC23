@@ -5,10 +5,10 @@ import InfinityNav from "./InfinityNav";
 const InfinityHalloffame = () => {
   return (
     <div>
-      <div className="bg-black h-full lg:h-screen">
+      <div className="bg-black h-full">
         <InfinityNav/>
 
-        <h1 className="text-5xl text-white pt-24 lg:text-9xl flex justify-center font-nightcore tracking-wider">
+        <h1 className="text-5xl text-white pt-8 lg:text-9xl flex justify-center font-nightcore tracking-wider">
           HAll of &nbsp; <span className="text-red-600">F</span>Ame
         </h1>
         <div className="flex flex-col gap-5 items-center lg:gap-4 lg:mt-20 lg:relative">

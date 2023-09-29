@@ -1,10 +1,12 @@
 
 const Home = () => {
   return (
-    <div>
+    <div
+
+    >
       IConclave' 23
     </div>
-  )
+  );
 }
 
 export default Home;

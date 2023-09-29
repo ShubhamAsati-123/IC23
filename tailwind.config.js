@@ -6,14 +6,32 @@ export default {
       fontFamily: {
         nightcore: ["Nightcore", "sans"],
         miso: ["miso", "sans"],
-        newshape: ["NewShape","sans"],
-        captainamerica:['CaptainAmerica',"sans"],
+        newshape: ["NewShape", "sans"],
+        captainamerica: ["CaptainAmerica", "sans"],
+        silkroad: ["Silkroad", "sans"],
+        majormono: ["Major Mono Display", "sans"],
+        octobercrow: ["Octobercrow", "sans"],
+        veterantypewriter: ["veterantypewriter", "sans"],
+        1942: ["oneninefourtwo", "sans"],
+        punktypewriter: ["punktypewriter", "sans"],
       },
-      colors:{
-        "lockoutred":"#571d20",
+      colors: {
+        lockoutred: "#571d20",
+        cognitionbg: "#D7D6D7",
       },
       width: {
         128: "32rem",
+        192: "48rem",
+        256: "64rem",
+      },
+      height: {
+        128: "32rem",
+      },
+      fontSize: {
+        "10xl": "10rem",
+        "11xl": "12rem",
+        "12xl": "14rem",
+        "13xl": "16rem",
       },
     },
   },

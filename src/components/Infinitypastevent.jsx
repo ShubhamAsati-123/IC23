@@ -3,7 +3,7 @@ import { BiLinkExternal } from "react-icons/bi";
 
 const Infinitypastevent = () => {
   return (
-    <div className="bg-black h-screen">
+    <div className="bg-black h-full">
       <InfinityNav />
       <h1 className="text-white text-5xl lg:text-8xl pt-24 tracking-wide font-nightcore flex justify-center">
         PAST &nbsp; E<span className="text-red-600">V</span>ENTS

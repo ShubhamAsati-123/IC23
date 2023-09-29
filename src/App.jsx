@@ -12,11 +12,11 @@ import Nexus from "./pages/Nexus";
 import Lockout from "./pages/Lockout";
 import LockoutAbout from "./components/LockoutAbout";
 import Rofies1 from "./pages/Rofies1";
-import Rofies2 from "./pages/Rofies2";
 import Infinityteam from "./components/Infinityteam";
 import Infinitypastevent from "./components/Infinitypastevent";
 import Bitlegion from "./components/bitlegion";
 import InfinityHalloffame from "./components/InfinityHalloffame";
+import Cognition from "./pages/Cognition";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -89,8 +89,8 @@ const App = () => {
       element: <Rofies1 />,
     },
     {
-      path: "/rofies2",
-      element: <Rofies2 />,
+      path: "/cognition",
+      element: <Cognition />,
     },
   ]);
   return (
