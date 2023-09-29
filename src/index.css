@@ -14,3 +14,10 @@
   font-family: NewShape;
   src: url("/fonts/NewShape-Book.ttf");
 }
+@font-face {
+  font-family: CaptainAmerica;
+  src: url("/fonts/AmericanCaptain.otf");
+}
+/* #registertext:hover{
+  text-shadow: 2px 2px 5px grey;
+} */

@@ -7,9 +7,10 @@ export default {
         nightcore: ["Nightcore", "sans"],
         miso: ["miso", "sans"],
         newshape: ["NewShape","sans"],
+        captainamerica:['CaptainAmerica',"sans"],
       },
       colors:{
-        "lockoutPink":"#D50068",
+        "lockoutred":"#571d20",
       },
       width: {
         128: "32rem",
