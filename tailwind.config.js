@@ -15,10 +15,12 @@ export default {
         1942: ["oneninefourtwo", "sans"],
         punktypewriter: ["punktypewriter", "sans"],
         liquidism: ["liquidism", "sans"],
+        monoton: ["Monoton", "cursive"],
       },
       colors: {
         lockoutred: "#571d20",
         cognitionbg: "#D7D6D7",
+        frameflickbg: "#FCE61F",
       },
       width: {
         128: "32rem",

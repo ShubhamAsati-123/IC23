@@ -1,8 +1,9 @@
+import CommingSoon from "../components/CommingSoon"
 
 const CultNight = () => {
   return (
     <div>
-      Cultural Night
+      <CommingSoon />
     </div>
   )
 }

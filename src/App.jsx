@@ -17,6 +17,8 @@ import Infinitypastevent from "./components/Infinitypastevent";
 import Bitlegion from "./components/bitlegion";
 import InfinityHalloffame from "./components/InfinityHalloffame";
 import Cognition from "./pages/Cognition";
+import AawazEAawam from "./pages/AawazEAawam";
+import FrameFlick from "./pages/FrameFlick";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -70,11 +72,11 @@ const App = () => {
     },
     {
       path: "infinity/bitlegion",
-      element: < Bitlegion/>,
+      element: <Bitlegion />,
     },
     {
       path: "infinity/halloffame",
-      element: < InfinityHalloffame/>,
+      element: <InfinityHalloffame />,
     },
     {
       path: "/lockout",
@@ -82,7 +84,7 @@ const App = () => {
     },
     {
       path: "/lockout/about",
-      element: <LockoutAbout/>,
+      element: <LockoutAbout />,
     },
     {
       path: "/rofies1",
@@ -91,6 +93,14 @@ const App = () => {
     {
       path: "/cognition",
       element: <Cognition />,
+    },
+    {
+      path: "/aawazeaawam",
+      element: <AawazEAawam />,
+    },
+    {
+      path: "/frameflick",
+      element: <FrameFlick />,
     },
   ]);
   return (
