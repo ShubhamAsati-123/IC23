@@ -11,6 +11,8 @@ import Cult from "./pages/Cult";
 import Nexus from "./pages/Nexus";
 import Lockout from "./pages/Lockout";
 import LockoutAbout from "./components/LockoutAbout";
+import Guide from "./components/LockoutGuide";
+import Team from "./components/LockoutTeam";
 import Rofies1 from "./pages/Rofies1";
 import Infinityteam from "./components/Infinityteam";
 import Infinitypastevent from "./components/Infinitypastevent";
@@ -85,6 +87,14 @@ const App = () => {
     {
       path: "/lockout/about",
       element: <LockoutAbout />,
+    },
+    {
+      path: "/lockout/guide",
+      element: <Guide/>,
+    },
+    {
+      path: "/lockout/team",
+      element: <Team/>,
     },
     {
       path: "/rofies1",
